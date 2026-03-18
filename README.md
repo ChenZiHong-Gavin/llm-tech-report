@@ -2,6 +2,8 @@
 
 > A curated collection of technical reports, system cards, and model cards from major LLM labs — organized by company, with links to official documents.
 
+<img src="logo.png" alt="logo">
+
 <p align="center">
   <img src="https://img.shields.io/badge/Coverage-2017--2026-4c1" alt="time range">
   <img src="https://img.shields.io/badge/Companies-30+-blue" alt="companies">
