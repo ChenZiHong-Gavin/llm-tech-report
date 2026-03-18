@@ -94,8 +94,8 @@
 | 2025-03 | Gemma 3 | Technical Report | [Gemma 3 Technical Report](https://arxiv.org/abs/2503.19786) |
 | 2025-07 | Gemini 2.5 Pro | Model Card | [Gemini 2.5 Pro Model Card](https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf) |
 | 2025-07 | Gemini 2.5 Flash | Model Card | [Gemini 2.5 Flash Model Card](https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Model-Card.pdf) |
-| 2025-07 | Gemini 2.5 Flash | Technical Report | [Gemini 2.5 Flash Technical Report](https://arxiv.org/abs/2507.12243) |
-| 2025-07 | Gemini 2.5 Pro | Technical Report | [Gemini 2.5 Pro Technical Report](https://arxiv.org/abs/2507.12249) |
+| 2025-07 | Gemini 2.5 Flash | Technical Report | [Gemini 2.5 Technical Report](https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf) |
+| 2025-07 | Gemini 2.5 Pro | Technical Report | [Gemini 2.5 Technical Report](https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf) |
 | 2025-11 | Gemini 3 Pro | Model Card | [Gemini 3 Pro Model Card](https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf) |
 | 2025-12 | Gemini 3 Flash | Model Card | [Gemini 3 Flash Model Card](https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf) |
 
@@ -137,7 +137,6 @@
 | 2024-12 | DeepSeek-V3 | Paper | [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) |
 | 2024-12 | DeepSeek-VL2 | Paper | [DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding](https://arxiv.org/abs/2412.10302) |
 | 2025-01 | DeepSeek-R1 | Paper | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
-| 2025-09 | DeepSeek-V3.1 Terminus | Paper | [DeepSeek-V3.1 Terminus](https://arxiv.org/abs/2412.19437) |
 | 2025-12 | DeepSeek-V3.2 | Paper | [DeepSeek-V3.2](https://arxiv.org/abs/2512.02556) |
 
 
@@ -310,7 +309,7 @@
 |:-----|:------|:-----|:-----|
 | 2023-06 | Falcon (7B/40B/180B) | Paper | [The Falcon Series of Open Language Models](https://arxiv.org/abs/2311.16867) |
 | 2024-05 | Falcon 2 (11B) | Blog | [Falcon 2: An 11B Parameter Multilingual Model](https://falconllm.tii.ae/falcon-2.html) |
-| 2024-12 | Falcon 3 | Paper | [The Falcon 3 Family of Open Models](https://arxiv.org/abs/2501.15696) |
+| 2024-12 | Falcon 3 | Blog | [Falcon 3](https://falconllm.tii.ae/falcon3/index.html) |
 
 
 ## Reka AI
@@ -362,7 +361,7 @@
 
 | Date | Model | Type | Link |
 |:-----|:------|:-----|:-----|
-| 2024-12 | Moxin-7B | Paper | [Moxin: A Deep Dive into Data Curation Approaches for LLM](https://arxiv.org/abs/2501.13038) |
+| 2024-12 | Moxin-7B | Paper | [Fully Open Source Moxin-7B Technical Report](https://arxiv.org/abs/2412.06845) |
 
 ## Xiaomi / MiMo
 
