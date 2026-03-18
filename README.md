@@ -49,6 +49,7 @@
 - [InclusionAI (Ant Group)](#inclusionai-ant-group)
 - [Xiaomi / MiMo](#xiaomi--mimo)
 - [Zhijiang Lab / Moxin](#zhijiang-lab--moxin)
+---
 - [Contributing](#contributing)
 
 ---
