@@ -9,9 +9,7 @@
   <img src="https://img.shields.io/badge/Status-Actively%20Maintained-orange" alt="status">
 </p>
 
-**Why this repo?**
 
-- 🔗 **Links only** — no PDF downloads, just direct links to official papers / reports
 - 🏢 **Organized by company** — easy to track a lab's model evolution
 - 📅 **Chronological** — each company's reports sorted by release date
 - 🌐 **Comprehensive** — covers both Western and Chinese AI labs
