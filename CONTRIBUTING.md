@@ -46,6 +46,20 @@ If the company doesn't exist yet:
 
 4. Add your entries
 
+## Using with AI Assistants
+
+This repo includes a **skill file** for AI coding assistants (Cursor, Copilot, CoPaw, etc.):
+
+```
+.cursor/skills/llm-tech-report-maintenance/SKILL.md
+```
+
+Load it as context when asking your AI to update this repo. It contains:
+- Exact table schema and field definitions
+- Step-by-step procedures for all operations
+- Commit message conventions
+- Guardrails (no PDF downloads, no content extraction, etc.)
+
 ## Questions?
 
 Open an issue if you're unsure about anything!

@@ -284,6 +284,8 @@ Contributions welcome! To add a new report:
 - Date format: `YYYY-MM`
 - Sort entries chronologically within each company section
 
+> 🤖 **AI-assisted maintenance:** This repo ships with a skill file at `.cursor/skills/llm-tech-report-maintenance/SKILL.md` — load it into your AI assistant (Cursor, Copilot, CoPaw, etc.) for guided updates.
+
 ---
 
 ## License
