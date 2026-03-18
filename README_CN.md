@@ -1,38 +1,37 @@
-# 📄 LLM Technical Reports
+# 📄 LLM 技术报告合集
 
-> A curated collection of technical reports, system cards, and model cards from major LLM labs — organized by company, with links to official documents.
+> 精选各大 AI 实验室的大语言模型技术报告、系统卡、模型卡 —— 按公司分类，附官方文档链接。
 
 <img src="logo.png" alt="logo">
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Coverage-2017--2026-4c1" alt="time range">
-  <img src="https://img.shields.io/badge/Companies-30+-blue" alt="companies">
-  <img src="https://img.shields.io/badge/Reports-150+-success" alt="reports">
-  <img src="https://img.shields.io/badge/Status-Actively%20Maintained-orange" alt="status">
-  <a href="README_CN.md"><img src="https://img.shields.io/badge/lang-中文-red" alt="中文"></a>
+  <img src="https://img.shields.io/badge/覆盖-2017--2026-4c1" alt="time range">
+  <img src="https://img.shields.io/badge/公司-30+-blue" alt="companies">
+  <img src="https://img.shields.io/badge/报告-150+-success" alt="reports">
+  <img src="https://img.shields.io/badge/状态-持续维护中-orange" alt="status">
+  <a href="README.md"><img src="https://img.shields.io/badge/lang-English-blue" alt="English"></a>
 </p>
 
-
-- 🏢 **Organized by company** — easy to track a lab's model evolution
-- 📅 **Chronological** — each company's reports sorted by release date
-- 🌐 **Comprehensive** — covers both Western and Chinese AI labs
+- 🏢 **按公司分类** —— 轻松追踪各实验室的模型演进路线
+- 📅 **按时间排序** —— 每家公司的报告按发布日期排列
+- 🌐 **覆盖全面** —— 涵盖海外与国内主流 AI 实验室
 
 ---
 
-## Table of Contents
+## 目录
 
 - [OpenAI](#openai)
 - [Google / DeepMind](#google--deepmind)
 - [Anthropic](#anthropic)
 - [Meta](#meta)
-- [DeepSeek](#deepseek)
-- [Alibaba / Qwen](#alibaba--qwen)
-- [Shanghai AI Lab / InternLM](#shanghai-ai-lab--internlm)
-- [ByteDance](#bytedance)
-- [Zhipu AI / GLM](#zhipu-ai--glm)
-- [Moonshot AI / Kimi](#moonshot-ai--kimi)
-- [Baidu / ERNIE](#baidu--ernie)
-- [Tencent / Hunyuan](#tencent--hunyuan)
+- [DeepSeek（深度求索）](#deepseek)
+- [Alibaba / Qwen（通义千问）](#alibaba--qwen)
+- [Shanghai AI Lab / InternLM（书生）](#shanghai-ai-lab--internlm)
+- [ByteDance（字节跳动）](#bytedance)
+- [Zhipu AI / GLM（智谱）](#zhipu-ai--glm)
+- [Moonshot AI / Kimi（月之暗面）](#moonshot-ai--kimi)
+- [Baidu / ERNIE（文心）](#baidu--ernie)
+- [Tencent / Hunyuan（腾讯混元）](#tencent--hunyuan)
 - [MiniMax](#minimax)
 - [Mistral AI](#mistral-ai)
 - [xAI / Grok](#xai--grok)
@@ -45,21 +44,21 @@
 - [Reka AI](#reka-ai)
 - [Cohere](#cohere)
 - [Apple](#apple)
-- [Baichuan](#baichuan)
-- [01.AI / Yi](#01ai--yi)
-- [Meituan](#meituan)
-- [StepFun](#stepfun)
-- [InclusionAI (Ant Group)](#inclusionai-ant-group)
-- [Xiaomi / MiMo](#xiaomi--mimo)
-- [Zhijiang Lab / Moxin](#zhijiang-lab--moxin)
+- [Baichuan（百川）](#baichuan)
+- [01.AI / Yi（零一万物）](#01ai--yi)
+- [Meituan（美团）](#meituan)
+- [StepFun（阶跃星辰）](#stepfun)
+- [InclusionAI（蚂蚁）](#inclusionai-ant-group)
+- [Xiaomi / MiMo（小米）](#xiaomi--mimo)
+- [Zhijiang Lab / Moxin（之江实验室）](#zhijiang-lab--moxin)
 ---
-- [Contributing](#contributing)
+- [贡献指南](#贡献指南)
 
 ---
 
 ## OpenAI
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2018-06 | GPT-1 | Paper | [Improving Language Understanding by Generative Pre-Training](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) |
 | 2019-02 | GPT-2 | Paper | [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) |
@@ -81,7 +80,7 @@
 
 ## Google / DeepMind
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2017-06 | Transformer | Paper | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) |
 | 2018-10 | BERT | Paper | [BERT: Pre-training of Deep Bidirectional Transformers](https://arxiv.org/abs/1810.04805) |
@@ -104,7 +103,7 @@
 
 ## Anthropic
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2023-03 | Claude (Constitutional AI) | Paper | [Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073) |
 | 2023-07 | Claude 2 | Model Card | [Claude 2 Model Card](https://www-cdn.anthropic.com/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226/Model-Card-Claude-2.pdf) |
@@ -117,7 +116,7 @@
 
 ## Meta
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2023-02 | LLaMA | Paper | [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) |
 | 2023-07 | Llama 2 | Paper | [Llama 2: Open Foundation and Fine-Tuned Chat Models](https://arxiv.org/abs/2307.09288) |
@@ -126,9 +125,9 @@
 | 2025-04 | Llama 4 Scout / Maverick | Blog | [Llama 4: Open, Multimodal Intelligence](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) |
 | 2025-06 | Llama 4 Behemoth | Blog | [Llama 4 Behemoth](https://ai.meta.com/blog/llama-4-behemoth/) |
 
-## DeepSeek
+## DeepSeek（深度求索）
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-01 | DeepSeek LLM (67B) | Paper | [DeepSeek LLM: Scaling Open-Source Language Models with Longtermism](https://arxiv.org/abs/2401.02954) |
 | 2024-01 | DeepSeek-Coder | Paper | [DeepSeek-Coder: When the Large Language Model Meets Programming](https://arxiv.org/abs/2401.14196) |
@@ -142,11 +141,9 @@
 | 2025-01 | DeepSeek-R1 | Paper | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
 | 2025-12 | DeepSeek-V3.2 | Paper | [DeepSeek-V3.2](https://arxiv.org/abs/2512.02556) |
 
+## Alibaba / Qwen（通义千问）
 
-
-## Alibaba / Qwen
-
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2023-09 | Qwen | Paper | [Qwen Technical Report](https://arxiv.org/abs/2309.16609) |
 | 2023-10 | Qwen-VL | Paper | [Qwen-VL: A Versatile Vision-Language Model](https://arxiv.org/abs/2308.12966) |
@@ -165,10 +162,9 @@
 | 2025-11 | Qwen3-VL | Paper | [Qwen3-VL Technical Report](https://arxiv.org/abs/2511.21631) |
 | 2026-02 | Qwen 3.5 | Blog | [Qwen 3.5](https://qwen.ai/blog?id=qwen3.5) |
 
+## Shanghai AI Lab / InternLM（书生）
 
-## Shanghai AI Lab / InternLM
-
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2023-09 | InternLM | Paper | [InternLM: A Multilingual Language Model with Progressively Enhanced Capabilities](https://github.com/InternLM/InternLM-techreport/blob/main/InternLM.pdf) |
 | 2023-12 | InternVL | Paper | [InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks](https://arxiv.org/abs/2312.14238) |
@@ -180,10 +176,9 @@
 | 2025-04 | InternLM3 | GitHub | [InternLM3-8B](https://github.com/InternLM/InternLM) |
 | 2026-03 | InternVL-U | Paper | [InternVL-U: Democratizing Unified Multimodal Models for Understanding, Reasoning, Generation and Editing](https://arxiv.org/abs/2603.09877) |
 
+## ByteDance（字节跳动）
 
-## ByteDance
-
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-10 | Doubao/Seed1.0 | Blog | [Doubao Model Family](https://www.volcengine.com/docs/82379/1263482) |
 | 2025-04 | Seed1.5-Thinking | Paper | [Seed1.5-Thinking: Advancing Superb Reasoning Models with Reinforcement Learning](https://arxiv.org/abs/2504.13914) |
@@ -191,9 +186,9 @@
 | 2026-02 | MedXIAOHE | Paper | [MedXIAOHE: A Medical Vision-Language Foundation Model](https://arxiv.org/abs/2602.12705) |
 | 2026-02 | Seed 2.0 | Model Card | [Seed 2.0 Model Card](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2/0214/Seed2.0%20Model%20Card.pdf) |
 
-## Zhipu AI / GLM
+## Zhipu AI / GLM（智谱）
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2022-10 | GLM-130B | Paper | [GLM-130B: An Open Bilingual Pre-trained Model](https://arxiv.org/abs/2210.02414) |
 | 2024-01 | CogVLM | Paper | [CogVLM: Visual Expert for Pretrained Language Models](https://arxiv.org/abs/2311.03079) |
@@ -203,37 +198,35 @@
 | 2025-08 | GLM-4.5 | Paper | [GLM-4.5: An Open Mixture-of-Experts LLM](https://arxiv.org/abs/2508.06471) |
 | 2026-02 | GLM-5 | Paper | [GLM-5](https://arxiv.org/abs/2602.15763) |
 
+## Moonshot AI / Kimi（月之暗面）
 
-## Moonshot AI / Kimi
-
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-03 | Kimi (Moonshot-v1) | Blog | [Kimi — First 200k context length model](https://kimi.moonshot.cn/) |
 | 2025-07 | Kimi K2.0 | Paper | [Kimi K2.0 Technical Report](https://arxiv.org/abs/2507.20534) |
 | 2026-02 | Kimi K2.5 | Paper | [Kimi K2.5 Technical Report](https://github.com/MoonshotAI/Kimi-K2.5/raw/master/tech_report.pdf) |
 
-## Baidu / ERNIE
+## Baidu / ERNIE（文心）
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2021-12 | ERNIE 3.0 | Paper | [ERNIE 3.0: Large-scale Knowledge Enhanced Pre-training for Language Understanding and Generation](https://arxiv.org/abs/2107.02137) |
 | 2023-12 | ERNIE Bot (3.5/4.0) | Paper | [ERNIE Bot: Advanced Language Model](https://arxiv.org/abs/2312.12556) |
 | 2025-06 | ERNIE 4.5 | Technical Report | [ERNIE 4.5 Technical Report](https://yiyan.baidu.com/blog/publication/ERNIE_Technical_Report.pdf) |
 | 2026-02 | ERNIE 5.0 | Paper | [ERNIE 5.0](https://arxiv.org/abs/2602.04705) |
 
-## Tencent / Hunyuan
+## Tencent / Hunyuan（腾讯混元）
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-03 | Hunyuan-DiT | Paper | [Hunyuan-DiT: A Powerful Multi-Resolution Diffusion Transformer with Fine-Grained Chinese Understanding](https://arxiv.org/abs/2405.08748) |
 | 2024-11 | Hunyuan-Large | Paper | [Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters](https://arxiv.org/abs/2411.02265) |
 | 2025-03 | Hunyuan-T1 | Blog | [Hunyuan Turbomind T1](https://hunyuan.tencent.com/) |
 | 2025-05 | Yuanbao (Hunyuan-TurboS) | Paper | [Hunyuan-TurboS: A Hybrid Transformer-Mamba MoE Model](https://arxiv.org/abs/2505.15431) |
 
-
 ## MiniMax
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2025-01 | MiniMax-01 | Paper | [MiniMax-01: Scaling Foundation Models with Lightning Attention](https://arxiv.org/abs/2501.08313) |
 | 2025-10 | MiniMax M2.0 | Paper | [MiniMax M2.0](https://github.com/MiniMax-AI/MiniMax-M2) |
@@ -241,7 +234,7 @@
 
 ## Mistral AI
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2023-10 | Mistral 7B | Paper | [Mistral 7B](https://arxiv.org/abs/2310.06825) |
 | 2024-01 | Mixtral 8x7B | Paper | [Mixtral of Experts](https://arxiv.org/abs/2401.04088) |
@@ -254,11 +247,9 @@
 | 2025-03 | Mistral Small 3.1 | Blog | [Mistral Small 3.1](https://mistral.ai/news/mistral-small-3-1) |
 | 2025-05 | Mistral Medium 3 | Blog | [Mistral Medium 3](https://mistral.ai/news/mistral-medium-3) |
 
-
-
 ## xAI / Grok
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-03 | Grok-1 | Blog | [Open Release of Grok-1](https://x.ai/blog/grok-os) |
 | 2024-08 | Grok-2 | Blog | [Grok-2 Beta Release](https://x.ai/blog/grok-2) |
@@ -267,7 +258,7 @@
 
 ## Microsoft / Phi
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2023-06 | Phi-1 | Paper | [Textbooks Are All You Need](https://arxiv.org/abs/2306.11644) |
 | 2023-12 | Phi-2 | Paper | [Phi-2: The surprising power of small language models](https://arxiv.org/abs/2309.05463) |
@@ -279,14 +270,14 @@
 
 ## Amazon
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-12 | Nova (Micro/Lite/Pro) | Blog | [Introducing Amazon Nova Foundation Models](https://www.aboutamazon.com/news/aws/amazon-nova-artificial-intelligence-bedrock-aws) |
 | 2025-06 | Nova Family | Paper | [The Amazon Nova Family of Models: Technical Report and Model Card](https://arxiv.org/abs/2506.12103) |
 
 ## Nvidia
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-06 | Nemotron-4 340B | Paper | [Nemotron-4 340B Technical Report](https://arxiv.org/abs/2406.11704) |
 | 2024-10 | Llama-3.1-Nemotron-70B | Blog | [Llama-3.1-Nemotron-70B](https://blogs.nvidia.com/blog/nemotron-llama-3-1/) |
@@ -294,88 +285,34 @@
 
 ## AI21 Labs
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-03 | Jamba | Paper | [Jamba: A Hybrid Transformer-Mamba Language Model](https://arxiv.org/abs/2403.19887) |
 | 2024-08 | Jamba-1.5 | Paper | [Jamba-1.5: Hybrid Transformer-Mamba Models at Scale](https://arxiv.org/abs/2408.12570) |
 
 ## Databricks
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-03 | DBRX | Blog | [Introducing DBRX: A New State-of-the-Art Open LLM](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) |
 
-
 ## TII / Falcon
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2023-06 | Falcon (7B/40B/180B) | Paper | [The Falcon Series of Open Language Models](https://arxiv.org/abs/2311.16867) |
 | 2024-05 | Falcon 2 (11B) | Blog | [Falcon 2: An 11B Parameter Multilingual Model](https://falconllm.tii.ae/falcon-2.html) |
 | 2024-12 | Falcon 3 | Blog | [Falcon 3](https://falconllm.tii.ae/falcon3/index.html) |
 
-
 ## Reka AI
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-04 | Reka Core/Flash/Edge | Paper | [Reka Core, Flash, and Edge: A Series of Powerful Multimodal Language Models](https://arxiv.org/abs/2404.12387) |
 
-## Baichuan
-
-| Date | Model | Type | Link |
-|:-----|:------|:-----|:-----|
-| 2023-06 | Baichuan | Paper | [Baichuan 2: Open Large-scale Language Models](https://arxiv.org/abs/2309.10305) |
-| 2023-09 | Baichuan 2 | Paper | [Baichuan 2: Open Large-scale Language Models](https://arxiv.org/abs/2309.10305) |
-| 2025-09 | Baichuan-M2 | Paper | [Baichuan-M2: A Medical LLM](https://arxiv.org/abs/2509.02208) |
-| 2026-02 | Baichuan-M3 | Paper | [Baichuan-M3](https://arxiv.org/abs/2602.06570) |
-
-## 01.AI / Yi
-
-| Date | Model | Type | Link |
-|:-----|:------|:-----|:-----|
-| 2024-03 | Yi | Paper | [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652) |
-| 2024-05 | Yi-1.5 | Blog | [Yi-1.5: Updated, Stronger](https://01-ai.github.io/blog.html?post=en/2024-05-11-Yi-1.5.md) |
-| 2024-09 | Yi-Coder | Blog | [Yi-Coder: A Small but Mighty LLM for Code](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) |
-| 2025-02 | Yi-Lightning | Paper | [Yi-Lightning Technical Report](https://arxiv.org/abs/2412.01253) |
-
-## Meituan
-
-| Date | Model | Type | Link |
-|:-----|:------|:-----|:-----|
-| 2025-09 | LongCat-Flash | Paper | [LongCat-Flash](https://arxiv.org/abs/2509.01322) |
-| 2025-09 | LongCat-Flash-Thinking | Paper | [LongCat-Flash-Thinking](https://arxiv.org/abs/2509.18883) |
-| 2025-10 | LongCat-Flash-Omni | Paper | [LongCat-Flash-Omni](https://arxiv.org/abs/2511.00279) |
-
-## StepFun
-
-| Date | Model | Type | Link |
-|:-----|:------|:-----|:-----|
-| 2025-12 | Step-DeepResearch | Paper | [Step-DeepResearch](https://arxiv.org/abs/2512.20491) |
-| 2026-02 | Step-3.5-Flash | Paper | [Step-3.5-Flash](https://arxiv.org/abs/2602.10604) |
-
-## InclusionAI (Ant Group)
-
-| Date | Model | Type | Link |
-|:-----|:------|:-----|:-----|
-| 2026-02 | Ling 2.5 | GitHub | [Ling 2.5](https://github.com/inclusionAI/Ling-V2.5) |
-
-## Zhijiang Lab / Moxin
-
-| Date | Model | Type | Link |
-|:-----|:------|:-----|:-----|
-| 2024-12 | Moxin-7B | Paper | [Fully Open Source Moxin-7B Technical Report](https://arxiv.org/abs/2412.06845) |
-
-## Xiaomi / MiMo
-
-| Date | Model | Type | Link |
-|:-----|:------|:-----|:-----|
-| 2025-04 | MiMo-7B | Paper | [MiMo: Unlocking the Reasoning Potential of Language Model](https://arxiv.org/abs/2505.07608) |
-| 2025-07 | MiMo-V2-Flash | GitHub | [MiMo-V2-Flash](https://github.com/XiaomiMiMo/MiMo-V2-Flash) |
-
 ## Cohere
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-03 | Command R | Blog | [Introducing Command R](https://cohere.com/blog/command-r) |
 | 2024-04 | Command R+ | Blog | [Command R+](https://cohere.com/blog/command-r-plus-microsoft-azure) |
@@ -385,39 +322,91 @@
 
 ## Apple
 
-| Date | Model | Type | Link |
+| 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2023-12 | Ferret | Paper | [Ferret: Refer and Ground Anything Anywhere at Any Granularity](https://arxiv.org/abs/2310.07704) |
 | 2024-07 | Apple Intelligence (AFM) | Paper | [Apple Intelligence Foundation Language Models](https://arxiv.org/abs/2407.21075) |
 | 2024-12 | AIMv2 | Paper | [AIMv2: A Family of Strong Image Encoders](https://arxiv.org/abs/2411.14402) |
 
+## Baichuan（百川）
+
+| 日期 | 模型 | 类型 | 链接 |
+|:-----|:------|:-----|:-----|
+| 2023-06 | Baichuan | Paper | [Baichuan 2: Open Large-scale Language Models](https://arxiv.org/abs/2309.10305) |
+| 2023-09 | Baichuan 2 | Paper | [Baichuan 2: Open Large-scale Language Models](https://arxiv.org/abs/2309.10305) |
+| 2025-09 | Baichuan-M2 | Paper | [Baichuan-M2: A Medical LLM](https://arxiv.org/abs/2509.02208) |
+| 2026-02 | Baichuan-M3 | Paper | [Baichuan-M3](https://arxiv.org/abs/2602.06570) |
+
+## 01.AI / Yi（零一万物）
+
+| 日期 | 模型 | 类型 | 链接 |
+|:-----|:------|:-----|:-----|
+| 2024-03 | Yi | Paper | [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652) |
+| 2024-05 | Yi-1.5 | Blog | [Yi-1.5: Updated, Stronger](https://01-ai.github.io/blog.html?post=en/2024-05-11-Yi-1.5.md) |
+| 2024-09 | Yi-Coder | Blog | [Yi-Coder: A Small but Mighty LLM for Code](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) |
+| 2025-02 | Yi-Lightning | Paper | [Yi-Lightning Technical Report](https://arxiv.org/abs/2412.01253) |
+
+## Meituan（美团）
+
+| 日期 | 模型 | 类型 | 链接 |
+|:-----|:------|:-----|:-----|
+| 2025-09 | LongCat-Flash | Paper | [LongCat-Flash](https://arxiv.org/abs/2509.01322) |
+| 2025-09 | LongCat-Flash-Thinking | Paper | [LongCat-Flash-Thinking](https://arxiv.org/abs/2509.18883) |
+| 2025-10 | LongCat-Flash-Omni | Paper | [LongCat-Flash-Omni](https://arxiv.org/abs/2511.00279) |
+
+## StepFun（阶跃星辰）
+
+| 日期 | 模型 | 类型 | 链接 |
+|:-----|:------|:-----|:-----|
+| 2025-12 | Step-DeepResearch | Paper | [Step-DeepResearch](https://arxiv.org/abs/2512.20491) |
+| 2026-02 | Step-3.5-Flash | Paper | [Step-3.5-Flash](https://arxiv.org/abs/2602.10604) |
+
+## InclusionAI（蚂蚁）
+
+| 日期 | 模型 | 类型 | 链接 |
+|:-----|:------|:-----|:-----|
+| 2026-02 | Ling 2.5 | GitHub | [Ling 2.5](https://github.com/inclusionAI/Ling-V2.5) |
+
+## Xiaomi / MiMo（小米）
+
+| 日期 | 模型 | 类型 | 链接 |
+|:-----|:------|:-----|:-----|
+| 2025-04 | MiMo-7B | Paper | [MiMo: Unlocking the Reasoning Potential of Language Model](https://arxiv.org/abs/2505.07608) |
+| 2025-07 | MiMo-V2-Flash | GitHub | [MiMo-V2-Flash](https://github.com/XiaomiMiMo/MiMo-V2-Flash) |
+
+## Zhijiang Lab / Moxin（之江实验室）
+
+| 日期 | 模型 | 类型 | 链接 |
+|:-----|:------|:-----|:-----|
+| 2024-12 | Moxin-7B | Paper | [Fully Open Source Moxin-7B Technical Report](https://arxiv.org/abs/2412.06845) |
+
 ---
 
-## Contributing
+## 贡献指南
 
-Contributions welcome! To add a new report:
+欢迎贡献！添加新报告的步骤：
 
-1. Fork this repo
-2. Add the entry to the appropriate company section in `README.md`
-3. Follow the format: `| Date | Model | Type | Link |`
-4. Submit a PR
+1. Fork 本仓库
+2. 在 `README.md`（英文）和 `README_CN.md`（中文）对应公司章节中添加条目
+3. 遵循格式：`| 日期 | 模型 | 类型 | 链接 |`
+4. 提交 PR
 
-**Guidelines:**
-- Only include official publications: technical reports, papers, system cards, model cards, or official blog posts
-- Use the original source link (arxiv, official CDN, company blog)
-- Date format: `YYYY-MM`
-- Sort entries chronologically within each company section
+**规范：**
+- 仅收录官方发布：技术报告、论文、系统卡、模型卡或官方博客
+- 使用原始链接（arXiv、官方 CDN、公司博客）
+- 日期格式：`YYYY-MM`
+- 每个公司内按时间顺序排列
 
-> 🤖 **AI-assisted maintenance:** This repo ships with a skill file at `skills/llm-tech-report-maintenance/SKILL.md` — load it into your AI assistant (Cursor, Copilot, CoPaw, etc.) for guided updates.
+> 🤖 **AI 辅助维护：** 本仓库附带 Skill 文件 `skills/llm-tech-report-maintenance/SKILL.md`，加载到你的 AI 助手（Cursor、Copilot、CoPaw 等）即可获得引导式更新。
 
 ---
 
-## License
+## 许可证
 
-This project is licensed under the [MIT License](LICENSE).
+本项目基于 [MIT License](LICENSE) 开源。
 
-## Acknowledgements
+## 致谢
 
-This project is inspired by:
+本项目受以下项目启发：
 - [awesome-llm-tech-reports](https://github.com/joe1chief/awesome-llm-tech-reports)
 - [llm-knowledge-cutoff-dates](https://github.com/HaoooWang/llm-knowledge-cutoff-dates)
