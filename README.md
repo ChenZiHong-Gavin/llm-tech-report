@@ -140,6 +140,7 @@
 | 2024-12 | DeepSeek-V3 | Paper | [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) |
 | 2024-12 | DeepSeek-VL2 | Paper | [DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding](https://arxiv.org/abs/2412.10302) |
 | 2025-01 | DeepSeek-R1 | Paper | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
+| 2025-04 | DeepSeek-Prover-V2 | Paper | [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801) |
 | 2025-12 | DeepSeek-V3.2 | Paper | [DeepSeek-V3.2](https://arxiv.org/abs/2512.02556) |
 
 
@@ -155,13 +156,16 @@
 | 2024-07 | Qwen2-Audio | Paper | [Qwen2-Audio Technical Report](https://arxiv.org/abs/2407.10759) |
 | 2024-08 | Qwen2-Math | Paper | [Qwen2-Math Technical Report](https://arxiv.org/abs/2409.12122) |
 | 2024-09 | Qwen2.5 | Paper | [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) |
+| 2024-09 | Qwen2.5-Coder | Paper | [Qwen2.5-Coder Technical Report](https://arxiv.org/abs/2409.12186) |
 | 2024-09 | Qwen2-VL | Paper | [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191) |
 | 2024-11 | QwQ-32B-Preview | Blog | [QwQ: Reflect Deeply on the Boundaries of the Unknown](https://qwenlm.github.io/blog/qwq-32b-preview/) |
 | 2025-01 | Qwen2.5-Max | Blog | [Qwen2.5-Max: Exploring the Intelligence of Large-scale MoE Model](https://qwenlm.github.io/blog/qwen2.5-max/) |
 | 2025-03 | Qwen2.5-VL | Paper | [Qwen2.5-VL Technical Report](https://arxiv.org/abs/2502.13923) |
+| 2025-03 | Qwen2.5-Omni | Paper | [Qwen2.5-Omni Technical Report](https://arxiv.org/abs/2503.20215) |
 | 2025-03 | QwQ-32B | Blog | [QwQ-32B: Embracing the Power of Reinforcement Learning](https://qwenlm.github.io/blog/qwq-32b/) |
 | 2025-04 | Qwen3 | Paper | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) |
 | 2025-06 | Qwen3-Coder | Blog | [Qwen3-Coder](https://qwenlm.github.io/blog/qwen3-coder/) |
+| 2025-08 | Qwen-Image | Paper | [Qwen-Image Technical Report](https://arxiv.org/abs/2508.02324) |
 | 2025-11 | Qwen3-VL | Paper | [Qwen3-VL Technical Report](https://arxiv.org/abs/2511.21631) |
 | 2026-02 | Qwen 3.5 | Blog | [Qwen 3.5](https://qwen.ai/blog?id=qwen3.5) |
 
@@ -253,6 +257,9 @@
 | 2025-02 | Mistral Saba | Blog | [Mistral Saba](https://mistral.ai/news/mistral-saba) |
 | 2025-03 | Mistral Small 3.1 | Blog | [Mistral Small 3.1](https://mistral.ai/news/mistral-small-3-1) |
 | 2025-05 | Mistral Medium 3 | Blog | [Mistral Medium 3](https://mistral.ai/news/mistral-medium-3) |
+| 2025-06 | Magistral | Paper | [Magistral](https://arxiv.org/abs/2506.10910) |
+| 2025-08 | Devstral | Paper | [Devstral: Fine-tuning Language Models for Coding Agent Applications](https://arxiv.org/abs/2509.25193) |
+| 2026-03 | Mistral Small 4 | Blog | [Introducing Mistral Small 4](https://mistral.ai/news/mistral-small-4) |
 
 
 
