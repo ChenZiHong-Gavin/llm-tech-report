@@ -31,7 +31,7 @@ def boxes_overlap(b1, b2):
 def draw_logo(models, COLORS, LANDMARKS, OUTPUT, DPI, FIG_W, FIG_H,
               BG, TIMELINE, TICK_CLR, DIM, TEXT_CLR):
 
-    x_min, x_max = 2016.5, 2026.8
+    x_min, x_max = 2016.5, 2026.9
     y_min, y_max = -3.5, 4.0
     x_range = x_max - x_min
     y_range = y_max - y_min
@@ -104,7 +104,7 @@ def draw_logo(models, COLORS, LANDMARKS, OUTPUT, DPI, FIG_W, FIG_H,
     ax.text(x_min+0.1, y_max-0.15, "LLM Technical Reports",
             fontsize=24, fontweight='heavy', color=TEXT_CLR,
             fontfamily='sans-serif', ha='left', va='top', zorder=10)
-    ax.text(x_min+0.1, y_max-0.60, "150+ reports from 30+ labs  |  2017-2026",
+    ax.text(x_min+0.1, y_max-0.60, "160+ reports from 30+ labs  |  2017-2026",
             fontsize=9, color=DIM, fontfamily='monospace',
             ha='left', va='top', zorder=10)
 
