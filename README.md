@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Coverage-2017--2026-4c1" alt="time range">
-  <img src="https://img.shields.io/badge/Companies-30+-blue" alt="companies">
-  <img src="https://img.shields.io/badge/Reports-150+-success" alt="reports">
+  <img src="https://img.shields.io/badge/Companies-31+-blue" alt="companies">
+  <img src="https://img.shields.io/badge/Reports-185+-success" alt="reports">
   <img src="https://img.shields.io/badge/Status-Actively%20Maintained-orange" alt="status">
   <a href="README_CN.md"><img src="https://img.shields.io/badge/lang-中文-red" alt="中文"></a>
 </p>
@@ -114,6 +114,7 @@
 | 2025-06 | Claude Opus 4.5 | System Card | [Claude Opus 4.5 System Card](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf) |
 | 2025-06 | Claude Sonnet 4.5 | System Card | [Claude Sonnet 4.5 System Card](https://assets.anthropic.com/m/12f214efcc2f457a/original/Claude-Sonnet-4-5-System-Card.pdf) |
 | 2026-02 | Claude Opus 4.6 | System Card | [Claude Opus 4.6 System Card](https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf) |
+| 2026-04 | Claude Opus 4.7 / Sonnet 4.6 | System Card | [Claude Opus 4.7 and Sonnet 4.6 System Card](https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf) |
 
 ## Meta
 
@@ -142,6 +143,7 @@
 | 2025-01 | DeepSeek-R1 | Paper | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
 | 2025-04 | DeepSeek-Prover-V2 | Paper | [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801) |
 | 2025-12 | DeepSeek-V3.2 | Paper | [DeepSeek-V3.2](https://arxiv.org/abs/2512.02556) |
+| 2026-04 | DeepSeek-V4 | Technical Report | [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf) |
 
 
 
@@ -168,6 +170,8 @@
 | 2025-08 | Qwen-Image | Paper | [Qwen-Image Technical Report](https://arxiv.org/abs/2508.02324) |
 | 2025-11 | Qwen3-VL | Paper | [Qwen3-VL Technical Report](https://arxiv.org/abs/2511.21631) |
 | 2026-02 | Qwen 3.5 | Blog | [Qwen 3.5](https://qwen.ai/blog?id=qwen3.5) |
+| 2026-04 | Qwen3.5-Omni | Paper | [Qwen3.5-Omni Technical Report](https://arxiv.org/abs/2604.15804) |
+| 2026-04 | Qwen3.6 | Blog | [Qwen3.6](https://qwen.ai/blog?id=qwen3.6) |
 
 
 ## Shanghai AI Lab / InternLM
@@ -206,6 +210,7 @@
 | 2024-12 | GLM-Zero | Blog | [GLM-Zero-Preview](https://zhipuai.cn/devday) |
 | 2025-08 | GLM-4.5 | Paper | [GLM-4.5: An Open Mixture-of-Experts LLM](https://arxiv.org/abs/2508.06471) |
 | 2026-02 | GLM-5 | Paper | [GLM-5](https://arxiv.org/abs/2602.15763) |
+| 2026-04 | GLM-4.6V | Blog | [GLM-4.6V](https://zhipuai.cn/) |
 
 
 ## Moonshot AI / Kimi
@@ -215,6 +220,7 @@
 | 2024-03 | Kimi (Moonshot-v1) | Blog | [Kimi — First 200k context length model](https://kimi.moonshot.cn/) |
 | 2025-07 | Kimi K2.0 | Paper | [Kimi K2.0 Technical Report](https://arxiv.org/abs/2507.20534) |
 | 2026-02 | Kimi K2.5 | Paper | [Kimi K2.5 Technical Report](https://github.com/MoonshotAI/Kimi-K2.5/raw/master/tech_report.pdf) |
+| 2026-04 | Kimi K2.6 | Blog | [Kimi K2.6](https://kimi.moonshot.cn/) |
 
 ## Baidu / ERNIE
 
@@ -233,6 +239,7 @@
 | 2024-11 | Hunyuan-Large | Paper | [Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters](https://arxiv.org/abs/2411.02265) |
 | 2025-03 | Hunyuan-T1 | Blog | [Hunyuan Turbomind T1](https://hunyuan.tencent.com/) |
 | 2025-05 | Yuanbao (Hunyuan-TurboS) | Paper | [Hunyuan-TurboS: A Hybrid Transformer-Mamba MoE Model](https://arxiv.org/abs/2505.15431) |
+| 2026-04 | Hy3-preview | GitHub | [Hy3-preview](https://huggingface.co/tencent/Hy3-preview) |
 
 
 ## MiniMax
@@ -241,7 +248,9 @@
 |:-----|:------|:-----|:-----|
 | 2025-01 | MiniMax-01 | Paper | [MiniMax-01: Scaling Foundation Models with Lightning Attention](https://arxiv.org/abs/2501.08313) |
 | 2025-10 | MiniMax M2.0 | Paper | [MiniMax M2.0](https://github.com/MiniMax-AI/MiniMax-M2) |
+| 2025-12 | MiniMax M2.1 | GitHub | [MiniMax M2.1](https://github.com/MiniMax-AI/MiniMax-M2.1) |
 | 2026-02 | MiniMax M2.5 | Blog | [MiniMax M2.5](https://www.minimax.io/news/minimax-m25) |
+| 2026-04 | MiniMax M2.7 | Blog | [MiniMax M2.7](https://www.minimax.io/models/text/m27) |
 
 ## Mistral AI
 

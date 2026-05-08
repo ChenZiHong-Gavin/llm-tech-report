@@ -130,5 +130,15 @@ MODELS = [
     (2026.13,"Step-3.5","StepFun"),
     (2026.13,"Ling 2.5","InclusionAI"),
     (2026.22,"Mistral Small 4","Mistral"),
+    (2026.22,"InternVL-U","InternLM"),
+    (2026.30,"Claude 4.7","Anthropic"),
+    (2026.30,"Qwen3.5-Omni","Qwen"),
+    (2026.30,"DS-V4","DeepSeek"),
+    (2026.30,"Kimi K2.6","Moonshot"),
+    (2026.30,"GLM-4.6V","Zhipu"),
+    (2026.30,"Hy3","Tencent"),
+    (2026.30,"MiniMax M2.7","MiniMax"),
+    (2026.30,"Qwen3.6","Qwen"),
+    (2025.92,"MiniMax M2.1","MiniMax"),
 ]
 MODELS.sort(key=lambda m: m[0])
