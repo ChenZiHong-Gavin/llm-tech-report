@@ -330,7 +330,7 @@
 | Date | Model | Type | Link |
 |:-----|:------|:-----|:-----|
 | 2024-06 | Nemotron-4 340B | Paper | [Nemotron-4 340B Technical Report](https://arxiv.org/abs/2406.11704) |
-| 2024-10 | Llama-3.1-Nemotron-70B | Blog | [Llama-3.1-Nemotron-70B](https://blogs.nvidia.com/blog/nemotron-llama-3-1/) |
+| 2024-10 | Llama-3.1-Nemotron-70B | Model Card | [Llama-3.1-Nemotron-70B-Instruct](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct) |
 | 2025-03 | Llama-3.1-Nemotron-Ultra-253B | Paper | [Llama-Nemotron: An Open Reasoning Model Family](https://arxiv.org/abs/2505.00949) |
 | 2025-12 | NVIDIA Nemotron 3 | Paper | [NVIDIA Nemotron 3: Efficient and Open Intelligence](https://arxiv.org/abs/2512.20856) |
 
@@ -381,7 +381,7 @@
 | Date | Model | Type | Link |
 |:-----|:------|:-----|:-----|
 | 2024-03 | Yi | Paper | [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652) |
-| 2024-05 | Yi-1.5 | Blog | [Yi-1.5: Updated, Stronger](https://01-ai.github.io/blog.html?post=en/2024-05-11-Yi-1.5.md) |
+| 2024-05 | Yi-1.5 | GitHub | [Yi-1.5: Updated, Stronger](https://github.com/01-ai/Yi-1.5) |
 | 2024-09 | Yi-Coder | Blog | [Yi-Coder: A Small but Mighty LLM for Code](https://huggingface.co/blog/lorinma/yi-coder) |
 | 2025-02 | Yi-Lightning | Paper | [Yi-Lightning Technical Report](https://arxiv.org/abs/2412.01253) |
 

@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/覆盖-2017--2026-4c1" alt="time range">
-  <img src="https://img.shields.io/badge/公司-30+-blue" alt="companies">
-  <img src="https://img.shields.io/badge/报告-150+-success" alt="reports">
+  <img src="https://img.shields.io/badge/公司-31+-blue" alt="companies">
+  <img src="https://img.shields.io/badge/报告-235+-success" alt="reports">
   <img src="https://img.shields.io/badge/状态-持续维护中-orange" alt="status">
   <a href="README.md"><img src="https://img.shields.io/badge/lang-English-blue" alt="English"></a>
 </p>
@@ -77,6 +77,7 @@
 | 2025-08 | GPT-oss | Paper | [GPT-oss Technical Report](https://arxiv.org/abs/2508.10925) |
 | 2025-12 | GPT-5.2 | System Card | [GPT-5.2 System Card](https://cdn.openai.com/pdf/3a4153c8-c748-4b71-8e31-aecbde944f8d/oai_5_2_system-card.pdf) |
 | 2026-02 | GPT-5.3 Codex | System Card | [Codex System Card](https://cdn.openai.com/pdf/8df7697b-c1b2-4222-be00-1fd3298f351d/codex_system_card.pdf) |
+| 2026-04 | GPT-5.5 | System Card | [GPT-5.5 System Card](https://deploymentsafety.openai.com/gpt-5-5/gpt-5-5.pdf) |
 
 ## Google / DeepMind
 
@@ -100,6 +101,9 @@
 | 2025-07 | Gemini 2.5 Pro | Technical Report | [Gemini 2.5 Technical Report](https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf) |
 | 2025-11 | Gemini 3 Pro | Model Card | [Gemini 3 Pro Model Card](https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf) |
 | 2025-12 | Gemini 3 Flash | Model Card | [Gemini 3 Flash Model Card](https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf) |
+| 2026-05 | Gemini 3.5 Flash | Model Card | [Gemini 3.5 Flash Model Card](https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Flash-Model-Card.pdf) |
+| 2026-05 | Gemini Omni Flash | Model Card | [Gemini Omni Flash Model Card](https://deepmind.google/models/model-cards/gemini-omni-flash/) |
+| 2026-06 | Gemini 3.5 Audio | Model Card | [Gemini 3.5 Audio Model Card](https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-5-Audio-Model-Card.pdf) |
 
 ## Anthropic
 
@@ -113,6 +117,9 @@
 | 2025-06 | Claude Opus 4.5 | System Card | [Claude Opus 4.5 System Card](https://assets.anthropic.com/m/64823ba7485345a7/Claude-Opus-4-5-System-Card.pdf) |
 | 2025-06 | Claude Sonnet 4.5 | System Card | [Claude Sonnet 4.5 System Card](https://assets.anthropic.com/m/12f214efcc2f457a/original/Claude-Sonnet-4-5-System-Card.pdf) |
 | 2026-02 | Claude Opus 4.6 | System Card | [Claude Opus 4.6 System Card](https://www-cdn.anthropic.com/14e4fb01875d2a69f646fa5e574dea2b1c0ff7b5.pdf) |
+| 2026-04 | Claude Opus 4.7 / Sonnet 4.6 | System Card | [Claude Opus 4.7 and Sonnet 4.6 System Card](https://cdn.sanity.io/files/4zrzovbb/website/037f06850df7fbe871e206dad004c3db5fd50340.pdf) |
+| 2026-05 | Claude Opus 4.8 | System Card | [Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8) |
+| 2026-06 | Claude Fable 5 / Mythos 5 | System Card | [Claude Fable 5 and Mythos 5](https://www.anthropic.com/news/claude-fable-5-mythos-5) |
 
 ## Meta
 
@@ -124,6 +131,7 @@
 | 2024-07 | Llama 3 | Paper | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) |
 | 2025-04 | Llama 4 Scout / Maverick | Blog | [Llama 4: Open, Multimodal Intelligence](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) |
 | 2025-06 | Llama 4 Behemoth | Blog | [Llama 4 Behemoth](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) |
+| 2026-04 | Muse Spark | Blog | [Introducing Muse Spark](https://ai.meta.com/blog/introducing-muse-spark-msl/) |
 
 ## DeepSeek（深度求索）
 
@@ -139,7 +147,9 @@
 | 2024-12 | DeepSeek-V3 | Paper | [DeepSeek-V3 Technical Report](https://arxiv.org/abs/2412.19437) |
 | 2024-12 | DeepSeek-VL2 | Paper | [DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding](https://arxiv.org/abs/2412.10302) |
 | 2025-01 | DeepSeek-R1 | Paper | [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948) |
+| 2025-04 | DeepSeek-Prover-V2 | Paper | [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801) |
 | 2025-12 | DeepSeek-V3.2 | Paper | [DeepSeek-V3.2](https://arxiv.org/abs/2512.02556) |
+| 2026-04 | DeepSeek-V4 | Technical Report | [DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf) |
 
 ## Alibaba / Qwen（通义千问）
 
@@ -152,15 +162,20 @@
 | 2024-07 | Qwen2-Audio | Paper | [Qwen2-Audio Technical Report](https://arxiv.org/abs/2407.10759) |
 | 2024-08 | Qwen2-Math | Paper | [Qwen2-Math Technical Report](https://arxiv.org/abs/2409.12122) |
 | 2024-09 | Qwen2.5 | Paper | [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) |
+| 2024-09 | Qwen2.5-Coder | Paper | [Qwen2.5-Coder Technical Report](https://arxiv.org/abs/2409.12186) |
 | 2024-09 | Qwen2-VL | Paper | [Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution](https://arxiv.org/abs/2409.12191) |
 | 2024-11 | QwQ-32B-Preview | Blog | [QwQ: Reflect Deeply on the Boundaries of the Unknown](https://qwenlm.github.io/blog/qwq-32b-preview/) |
 | 2025-01 | Qwen2.5-Max | Blog | [Qwen2.5-Max: Exploring the Intelligence of Large-scale MoE Model](https://qwenlm.github.io/blog/qwen2.5-max/) |
 | 2025-03 | Qwen2.5-VL | Paper | [Qwen2.5-VL Technical Report](https://arxiv.org/abs/2502.13923) |
+| 2025-03 | Qwen2.5-Omni | Paper | [Qwen2.5-Omni Technical Report](https://arxiv.org/abs/2503.20215) |
 | 2025-03 | QwQ-32B | Blog | [QwQ-32B: Embracing the Power of Reinforcement Learning](https://qwenlm.github.io/blog/qwq-32b/) |
 | 2025-04 | Qwen3 | Paper | [Qwen3 Technical Report](https://arxiv.org/abs/2505.09388) |
 | 2025-06 | Qwen3-Coder | Blog | [Qwen3-Coder](https://qwenlm.github.io/blog/qwen3-coder/) |
+| 2025-08 | Qwen-Image | Paper | [Qwen-Image Technical Report](https://arxiv.org/abs/2508.02324) |
 | 2025-11 | Qwen3-VL | Paper | [Qwen3-VL Technical Report](https://arxiv.org/abs/2511.21631) |
 | 2026-02 | Qwen 3.5 | Blog | [Qwen 3.5](https://qwen.ai/blog?id=qwen3.5) |
+| 2026-04 | Qwen3.5-Omni | Paper | [Qwen3.5-Omni Technical Report](https://arxiv.org/abs/2604.15804) |
+| 2026-04 | Qwen3.6 | Blog | [Qwen3.6](https://qwen.ai/blog?id=qwen3.6) |
 
 ## Shanghai AI Lab / InternLM（书生）
 
@@ -175,6 +190,9 @@
 | 2024-12 | InternVL2.5 | Paper | [Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling](https://arxiv.org/abs/2412.05271) |
 | 2025-04 | InternLM3 | GitHub | [InternLM3-8B](https://github.com/InternLM/InternLM) |
 | 2026-03 | InternVL-U | Paper | [InternVL-U: Democratizing Unified Multimodal Models for Understanding, Reasoning, Generation and Editing](https://arxiv.org/abs/2603.09877) |
+| 2026-05 | Intern-S2-Preview | Model Card | [Intern-S2-Preview](https://huggingface.co/internlm/Intern-S2-Preview) |
+| 2026-06 | Future-L1 | Paper | [Imagine Before You Predict: Interleaved Latent Visual Reasoning](https://arxiv.org/abs/2606.05769) |
+| 2026-06 | CapRL++ | Paper | [CapRL++: Unified RL with Verifiable Rewards for Dense Captioning](https://arxiv.org/abs/2606.09393) |
 
 ## ByteDance（字节跳动）
 
@@ -185,6 +203,12 @@
 | 2025-05 | Seed1.5-VL | Paper | [Seed1.5-VL: Better Vision-Language Understanding with Mixture of Experts](https://arxiv.org/abs/2505.07062) |
 | 2026-02 | MedXIAOHE | Paper | [MedXIAOHE: A Medical Vision-Language Foundation Model](https://arxiv.org/abs/2602.12705) |
 | 2026-02 | Seed 2.0 | Model Card | [Seed 2.0 Model Card](https://lf3-static.bytednsdoc.com/obj/eden-cn/lapzild-tss/ljhwZthlaukjlkulzlp/seed2/0214/Seed2.0%20Model%20Card.pdf) |
+| 2026-04 | Seeduplex | Blog | [Introducing Seed Full-Duplex Speech LLM](https://seed.bytedance.com/en/blog/introducing-seed-full-duplex-speech-llm-attentive-listening-robust-interference-suppression-enabling-more-natural-interaction) |
+| 2026-04 | Seedance 2.0 | Technical Report | [Seedance 2.0: Advancing Video Generation for World Complexity](https://arxiv.org/abs/2604.14148) |
+| 2026-05 | Seed3D 2.0 | Technical Report | [Seed3D 2.0: Advancing High-Fidelity Simulation-Ready 3D Content Generation](https://arxiv.org/abs/2605.13862) |
+| 2026-05 | Cola DLM | Paper | [Continuous Latent Diffusion Language Model](https://arxiv.org/abs/2605.06548) |
+| 2026-05 | TaskMem | Paper | [Task-Focused Memorization for Multimodal Agents](https://arxiv.org/abs/2605.31075) |
+| 2026-06 | Seed-2.1-Pro-Preview | Blog | [Seed-2.1-Preview Model Release on Arena](https://seed.bytedance.com/en/blog/seed-2-1-preview-model-release-on-arena) |
 
 ## Zhipu AI / GLM（智谱）
 
@@ -197,6 +221,7 @@
 | 2024-12 | GLM-Zero | Blog | [GLM-Zero-Preview](https://zhipuai.cn/devday) |
 | 2025-08 | GLM-4.5 | Paper | [GLM-4.5: An Open Mixture-of-Experts LLM](https://arxiv.org/abs/2508.06471) |
 | 2026-02 | GLM-5 | Paper | [GLM-5](https://arxiv.org/abs/2602.15763) |
+| 2026-04 | GLM-4.6V | Blog | [GLM-4.6V](https://zhipuai.cn/) |
 
 ## Moonshot AI / Kimi（月之暗面）
 
@@ -205,6 +230,7 @@
 | 2024-03 | Kimi (Moonshot-v1) | Blog | [Kimi — First 200k context length model](https://kimi.moonshot.cn/) |
 | 2025-07 | Kimi K2.0 | Paper | [Kimi K2.0 Technical Report](https://arxiv.org/abs/2507.20534) |
 | 2026-02 | Kimi K2.5 | Paper | [Kimi K2.5 Technical Report](https://github.com/MoonshotAI/Kimi-K2.5/raw/master/tech_report.pdf) |
+| 2026-04 | Kimi K2.6 | Blog | [Kimi K2.6](https://kimi.moonshot.cn/) |
 
 ## Baidu / ERNIE（文心）
 
@@ -214,6 +240,9 @@
 | 2023-12 | ERNIE Bot (3.5/4.0) | Paper | [ERNIE Bot: Advanced Language Model](https://arxiv.org/abs/2312.12556) |
 | 2025-06 | ERNIE 4.5 | Technical Report | [ERNIE 4.5 Technical Report](https://yiyan.baidu.com/blog/publication/ERNIE_Technical_Report.pdf) |
 | 2026-02 | ERNIE 5.0 | Paper | [ERNIE 5.0](https://arxiv.org/abs/2602.04705) |
+| 2026-05 | ERNIE-Image | Technical Report | [ERNIE-Image Technical Report](https://arxiv.org/abs/2605.25347) |
+| 2026-05 | ERNIE 5.1 | Blog | [ERNIE 5.1 Officially Released](https://ernie.baidu.com/blog/posts/ernie-5.1-0508-release/) |
+| 2026-06 | PaddleOCR-VL-1.6 | Technical Report | [PaddleOCR-VL-1.6 Technical Report](https://arxiv.org/abs/2606.03264) |
 
 ## Tencent / Hunyuan（腾讯混元）
 
@@ -223,6 +252,8 @@
 | 2024-11 | Hunyuan-Large | Paper | [Hunyuan-Large: An Open-Source MoE Model with 52 Billion Activated Parameters](https://arxiv.org/abs/2411.02265) |
 | 2025-03 | Hunyuan-T1 | Blog | [Hunyuan Turbomind T1](https://hunyuan.tencent.com/) |
 | 2025-05 | Yuanbao (Hunyuan-TurboS) | Paper | [Hunyuan-TurboS: A Hybrid Transformer-Mamba MoE Model](https://arxiv.org/abs/2505.15431) |
+| 2026-04 | Hy3-preview | GitHub | [Hy3-preview](https://huggingface.co/tencent/Hy3-preview) |
+| 2026-06 | Hy-Embodied-0.5-VLA | GitHub | [Hy-Embodied-0.5-VLA](https://github.com/Tencent-Hunyuan/Hy-Embodied-0.5-VLA) |
 
 ## MiniMax
 
@@ -230,7 +261,11 @@
 |:-----|:------|:-----|:-----|
 | 2025-01 | MiniMax-01 | Paper | [MiniMax-01: Scaling Foundation Models with Lightning Attention](https://arxiv.org/abs/2501.08313) |
 | 2025-10 | MiniMax M2.0 | Paper | [MiniMax M2.0](https://github.com/MiniMax-AI/MiniMax-M2) |
+| 2025-12 | MiniMax M2.1 | GitHub | [MiniMax M2.1](https://github.com/MiniMax-AI/MiniMax-M2.1) |
 | 2026-02 | MiniMax M2.5 | Blog | [MiniMax M2.5](https://www.minimax.io/news/minimax-m25) |
+| 2026-04 | MiniMax M2.7 | Blog | [MiniMax M2.7](https://www.minimax.io/models/text/m27) |
+| 2026-06 | MiniMax M3 | Model Card | [MiniMax-M3](https://huggingface.co/MiniMaxAI/MiniMax-M3) |
+| 2026-06 | MiniMax Sparse Attention | Paper | [MiniMax Sparse Attention](https://arxiv.org/abs/2606.13392) |
 
 ## Mistral AI
 
@@ -246,6 +281,9 @@
 | 2025-02 | Mistral Saba | Blog | [Mistral Saba](https://mistral.ai/news/mistral-saba) |
 | 2025-03 | Mistral Small 3.1 | Blog | [Mistral Small 3.1](https://mistral.ai/news/mistral-small-3-1) |
 | 2025-05 | Mistral Medium 3 | Blog | [Mistral Medium 3](https://mistral.ai/news/mistral-medium-3) |
+| 2025-06 | Magistral | Paper | [Magistral](https://arxiv.org/abs/2506.10910) |
+| 2025-08 | Devstral | Paper | [Devstral: Fine-tuning Language Models for Coding Agent Applications](https://arxiv.org/abs/2509.25193) |
+| 2026-03 | Mistral Small 4 | Blog | [Introducing Mistral Small 4](https://mistral.ai/news/mistral-small-4) |
 
 ## xAI / Grok
 
@@ -255,6 +293,7 @@
 | 2024-08 | Grok-2 | Blog | [Grok-2 Beta Release](https://x.ai/blog/grok-2) |
 | 2025-02 | Grok-3 | Blog | [Grok 3](https://x.ai/blog/grok-3) |
 | 2025-08 | Grok 4 | Model Card | [Grok 4 Model Card](https://data.x.ai/2025-08-20-grok-4-model-card.pdf) |
+| 2025-11 | Grok 4.1 | Model Card | [Grok 4.1 Model Card](https://data.x.ai/2025-11-17-grok-4-1-model-card.pdf) |
 
 ## Microsoft / Phi
 
@@ -267,6 +306,7 @@
 | 2025-02 | Phi-4-mini | Paper | [Phi-4-mini Technical Report](https://arxiv.org/abs/2503.01743) |
 | 2025-05 | Phi-4-reasoning | Paper | [Phi-4-reasoning Technical Report](https://arxiv.org/abs/2504.21318) |
 | 2025-06 | Phi-4-multimodal | Paper | [Phi-4-multimodal Technical Report](https://arxiv.org/abs/2503.01743) |
+| 2026-03 | Phi-4-reasoning-vision-15B | Paper | [Phi-4-reasoning-vision-15B Technical Report](https://arxiv.org/abs/2603.03975) |
 
 ## Amazon
 
@@ -274,14 +314,16 @@
 |:-----|:------|:-----|:-----|
 | 2024-12 | Nova (Micro/Lite/Pro) | Blog | [Introducing Amazon Nova Foundation Models](https://www.aboutamazon.com/news/aws/amazon-nova-artificial-intelligence-bedrock-aws) |
 | 2025-06 | Nova Family | Paper | [The Amazon Nova Family of Models: Technical Report and Model Card](https://arxiv.org/abs/2506.12103) |
+| 2025-12 | Amazon Nova 2 | Technical Report | [Amazon Nova 2: Multimodal Reasoning and Generation Models](https://cdn.amazon.science/c5/3d/84514a224666b5be6de4b43ef4aa/nova-2-0-technical-report2.pdf) |
 
 ## Nvidia
 
 | 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-06 | Nemotron-4 340B | Paper | [Nemotron-4 340B Technical Report](https://arxiv.org/abs/2406.11704) |
-| 2024-10 | Llama-3.1-Nemotron-70B | Blog | [Llama-3.1-Nemotron-70B](https://blogs.nvidia.com/blog/nemotron-llama-3-1/) |
+| 2024-10 | Llama-3.1-Nemotron-70B | Model Card | [Llama-3.1-Nemotron-70B-Instruct](https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct) |
 | 2025-03 | Llama-3.1-Nemotron-Ultra-253B | Paper | [Llama-Nemotron: An Open Reasoning Model Family](https://arxiv.org/abs/2505.00949) |
+| 2025-12 | NVIDIA Nemotron 3 | Paper | [NVIDIA Nemotron 3: Efficient and Open Intelligence](https://arxiv.org/abs/2512.20856) |
 
 ## AI21 Labs
 
@@ -289,6 +331,7 @@
 |:-----|:------|:-----|:-----|
 | 2024-03 | Jamba | Paper | [Jamba: A Hybrid Transformer-Mamba Language Model](https://arxiv.org/abs/2403.19887) |
 | 2024-08 | Jamba-1.5 | Paper | [Jamba-1.5: Hybrid Transformer-Mamba Models at Scale](https://arxiv.org/abs/2408.12570) |
+| 2026-01 | Jamba2 | Blog | [Introducing Jamba2](https://www.ai21.com/blog/introducing-jamba2/) |
 
 ## Databricks
 
@@ -303,12 +346,14 @@
 | 2023-06 | Falcon (7B/40B/180B) | Paper | [The Falcon Series of Open Language Models](https://arxiv.org/abs/2311.16867) |
 | 2024-05 | Falcon 2 (11B) | Blog | [Falcon 2: An 11B Parameter Multilingual Model](https://falconllm.tii.ae/falcon-2.html) |
 | 2024-12 | Falcon 3 | Blog | [Falcon 3](https://falconllm.tii.ae/falcon3/index.html) |
+| 2026-01 | Falcon-H1R 7B | Blog | [Introducing Falcon H1R 7B](https://huggingface.co/blog/tiiuae/falcon-h1r-7b) |
 
 ## Reka AI
 
 | 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-04 | Reka Core/Flash/Edge | Paper | [Reka Core, Flash, and Edge: A Series of Powerful Multimodal Language Models](https://arxiv.org/abs/2404.12387) |
+| 2025-07 | Reka Flash 3.1 | Blog | [Reka Flash 3.1 and Reka Quant](https://reka.ai/news/reka-flash-3-1-and-reka-quant) |
 
 ## Cohere
 
@@ -319,6 +364,7 @@
 | 2024-08 | Aya-23 | Paper | [Aya 23: Open Weight Releases to Further Multilingual Progress](https://arxiv.org/abs/2405.15032) |
 | 2024-12 | Aya Expanse | Paper | [Aya Expanse: Connecting the Global Majority](https://arxiv.org/abs/2412.04569) |
 | 2025-03 | Command A | Blog | [Command A](https://cohere.com/blog/command-a) |
+| 2026-05 | Command A+ | Blog | [Introducing Command A+](https://cohere.com/blog/command-a-plus) |
 
 ## Apple
 
@@ -327,6 +373,7 @@
 | 2023-12 | Ferret | Paper | [Ferret: Refer and Ground Anything Anywhere at Any Granularity](https://arxiv.org/abs/2310.07704) |
 | 2024-07 | Apple Intelligence (AFM) | Paper | [Apple Intelligence Foundation Language Models](https://arxiv.org/abs/2407.21075) |
 | 2024-12 | AIMv2 | Paper | [AIMv2: A Family of Strong Image Encoders](https://arxiv.org/abs/2411.14402) |
+| 2026-06 | Apple Foundation Models (3rd gen) | Blog | [Introducing the Third Generation of Apple's Foundation Models](https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models) |
 
 ## Baichuan（百川）
 
@@ -336,13 +383,14 @@
 | 2023-09 | Baichuan 2 | Paper | [Baichuan 2: Open Large-scale Language Models](https://arxiv.org/abs/2309.10305) |
 | 2025-09 | Baichuan-M2 | Paper | [Baichuan-M2: A Medical LLM](https://arxiv.org/abs/2509.02208) |
 | 2026-02 | Baichuan-M3 | Paper | [Baichuan-M3](https://arxiv.org/abs/2602.06570) |
+| 2026-06 | Baichuan-M4 | Paper | [Baichuan-M4: A Clinical-Grade Medical Agent System for Continuous Care](https://arxiv.org/abs/2606.08982) |
 
 ## 01.AI / Yi（零一万物）
 
 | 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-03 | Yi | Paper | [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652) |
-| 2024-05 | Yi-1.5 | Blog | [Yi-1.5: Updated, Stronger](https://01-ai.github.io/blog.html?post=en/2024-05-11-Yi-1.5.md) |
+| 2024-05 | Yi-1.5 | GitHub | [Yi-1.5: Updated, Stronger](https://github.com/01-ai/Yi-1.5) |
 | 2024-09 | Yi-Coder | Blog | [Yi-Coder: A Small but Mighty LLM for Code](https://huggingface.co/blog/lorinma/yi-coder) |
 | 2025-02 | Yi-Lightning | Paper | [Yi-Lightning Technical Report](https://arxiv.org/abs/2412.01253) |
 
@@ -353,6 +401,10 @@
 | 2025-09 | LongCat-Flash | Paper | [LongCat-Flash](https://arxiv.org/abs/2509.01322) |
 | 2025-09 | LongCat-Flash-Thinking | Paper | [LongCat-Flash-Thinking](https://arxiv.org/abs/2509.18883) |
 | 2025-10 | LongCat-Flash-Omni | Paper | [LongCat-Flash-Omni](https://arxiv.org/abs/2511.00279) |
+| 2025-12 | LongCat-Image | Paper | [LongCat-Image Technical Report](https://arxiv.org/abs/2512.07584) |
+| 2026-01 | LongCat-Flash-Thinking-2601 | Technical Report | [LongCat-Flash-Thinking-2601 Technical Report](https://arxiv.org/abs/2601.16725) |
+| 2026-03 | LongCat-Next | Paper | [LongCat-Next: Lexicalizing Modalities as Discrete Tokens](https://arxiv.org/abs/2603.27538) |
+| 2026-05 | LongCat-Video-Avatar-1.5 | Model Card | [LongCat-Video-Avatar-1.5](https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5) |
 
 ## StepFun（阶跃星辰）
 
@@ -360,12 +412,21 @@
 |:-----|:------|:-----|:-----|
 | 2025-12 | Step-DeepResearch | Paper | [Step-DeepResearch](https://arxiv.org/abs/2512.20491) |
 | 2026-02 | Step-3.5-Flash | Paper | [Step-3.5-Flash](https://arxiv.org/abs/2602.10604) |
+| 2026-05 | StepAudio 2.5 | Technical Report | [StepAudio 2.5 Technical Report](https://arxiv.org/abs/2605.23463) |
+| 2026-05 | Step-3.7-Flash | Blog | [Step 3.7 Flash](https://static.stepfun.com/blog/step-3.7-flash/) |
 
 ## InclusionAI（蚂蚁）
 
 | 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2026-02 | Ling 2.5 | GitHub | [Ling 2.5](https://github.com/inclusionAI/Ling-V2.5) |
+| 2026-04 | LLaDA2.0-Uni | Paper | [LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion LLM](https://arxiv.org/abs/2604.20796) |
+| 2026-04 | DR-Venus | Paper | [DR-Venus: Frontier Edge-Scale Deep Research Agents](https://arxiv.org/abs/2604.19859) |
+| 2026-04 | Ling-2.6-1T | Model Card | [Ling-2.6-1T](https://huggingface.co/inclusionAI/Ling-2.6-1T) |
+| 2026-04 | Ling-2.6-flash | Model Card | [Ling-2.6-flash](https://huggingface.co/inclusionAI/Ling-2.6-flash) |
+| 2026-04 | cuLA | GitHub | [cuLA](https://github.com/inclusionAI/cuLA) |
+| 2026-06 | Ling/Ring 2.6 | Technical Report | [Ling and Ring 2.6 Technical Report](https://arxiv.org/abs/2606.15079) |
+| 2026-06 | Sing-Guard | GitHub | [Sing-Guard](https://github.com/inclusionAI/Sing-Guard) |
 
 ## Xiaomi / MiMo（小米）
 
@@ -373,12 +434,20 @@
 |:-----|:------|:-----|:-----|
 | 2025-04 | MiMo-7B | Paper | [MiMo: Unlocking the Reasoning Potential of Language Model](https://arxiv.org/abs/2505.07608) |
 | 2025-07 | MiMo-V2-Flash | GitHub | [MiMo-V2-Flash](https://github.com/XiaomiMiMo/MiMo-V2-Flash) |
+| 2025-11 | MiMo-Embodied | Technical Report | [MiMo-Embodied: X-Embodied Foundation Model Technical Report](https://arxiv.org/abs/2511.16518) |
+| 2025-12 | MiMo-VL-Miloco | Technical Report | [Xiaomi MiMo-VL-Miloco Technical Report](https://arxiv.org/abs/2512.17436) |
+| 2025-12 | MiMo-Audio | Technical Report | [MiMo-Audio: Audio Language Models are Few-Shot Learners](https://arxiv.org/abs/2512.23808) |
+| 2026-01 | MiMo-V2-Flash | Technical Report | [MiMo-V2-Flash Technical Report](https://arxiv.org/abs/2601.02780) |
+| 2026-04 | MiMo-V2.5-ASR | GitHub | [MiMo-V2.5-ASR](https://github.com/XiaomiMiMo/MiMo-V2.5-ASR) |
+| 2026-06 | MiMo-Code | GitHub | [MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) |
 
 ## Zhijiang Lab / Moxin（之江实验室）
 
 | 日期 | 模型 | 类型 | 链接 |
 |:-----|:------|:-----|:-----|
 | 2024-12 | Moxin-7B | Paper | [Fully Open Source Moxin-7B Technical Report](https://arxiv.org/abs/2412.06845) |
+| 2025-09 | CC-MoE | Paper | [Collaborative Compression for Large-Scale MoE Deployment on Edge](https://arxiv.org/abs/2509.25689) |
+| 2025-12 | Moxin-VLM/VLA | Paper | [Open-Source Multimodal Moxin Models with Moxin-VLM and Moxin-VLA](https://arxiv.org/abs/2512.22208) |
 
 ---
 
