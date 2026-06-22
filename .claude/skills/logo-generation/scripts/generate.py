@@ -1,13 +1,13 @@
 """
 LLM Technical Reports - Timeline Logo Generator
-Run: python skills/logo-generation/scripts/generate.py
+Run: python .claude/skills/logo-generation/scripts/generate.py
 Output: logo.png in repo root
 """
 import sys
 from pathlib import Path
 
 # ensure repo root importable
-REPO_ROOT = Path(__file__).resolve().parents[3]
+REPO_ROOT = Path(__file__).resolve().parents[4]
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import matplotlib

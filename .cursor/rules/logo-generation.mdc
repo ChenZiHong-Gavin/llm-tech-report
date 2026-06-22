@@ -1,0 +1,67 @@
+---
+description: Generate or update the repository's timeline logo (logo.png) — stacks all model names along a time axis and auto-avoids text overlap. Apply when asked to create/regenerate the logo or add a model/company to the timeline graphic.
+alwaysApply: false
+---
+
+# Logo Generation (Timeline)
+
+Generates the timeline `logo.png` for this repo. All model names are stacked above and below a horizontal time axis, with automatic overlap avoidance.
+
+## File layout
+
+```
+.claude/skills/logo-generation/
+├── SKILL.md                  # canonical doc
+└── scripts/
+    ├── generate.py           # entry point: config + invoke
+    ├── models.py             # data: all (year, name, company) entries
+    └── draw.py               # drawing: timeline + anti-overlap algorithm
+```
+
+Output: `logo.png` in the repo root (~400 KB, 20×8 in, 300 DPI).
+
+## Dependencies
+
+```
+pip install matplotlib numpy
+```
+
+## Run
+
+```bash
+# from the repo root
+python .claude/skills/logo-generation/scripts/generate.py
+```
+
+## How to update
+
+### Add a model
+Edit `scripts/models.py`, add to the `MODELS` list:
+```python
+(2025.50, "ModelName", "CompanyKey"),
+```
+- **year**: `YYYY + MM/12` (e.g. 2025-06 → `2025.50`)
+- **name**: keep it short (`DS-R1`, not `DeepSeek-R1`)
+- **company**: must already exist in the `COLORS` dict in `generate.py`
+
+No manual sorting needed — the script sorts by time.
+
+### Add a company
+1. Add `"NewCo": "#hex"` to the `COLORS` dict in `generate.py`
+2. Add the name to the `legend` list in `draw.py` if it should show in the legend
+
+### Adjust landmarks
+Add/remove names in the `LANDMARKS` set in `generate.py`. Landmark font is 7.5 pt, normal 5.8 pt.
+
+## Anti-overlap algorithm
+- Pure data-coordinate estimation (no renderer call) — runs in seconds
+- text width = `chars × fontsize × 0.55 / 72 × (x_range / fig_w)`
+- text height = `fontsize × 1.2 / 72 × (y_range / fig_h)`
+- alternates above/below the axis by parity; on collision, pushes outward (step 0.24), up to 30 layers
+
+## Notes
+1. **Keep names short** — long names crowd the axis; prefer abbreviations
+2. **2023–2025 is the densest stretch** — nudge the year decimal to de-cluster
+3. **Past ~150 models** — increase `FIG_H` or decrease `y_step`
+4. **Dark background** — avoid very dark colors (pure black, deep gray)
+5. **Re-run after any data change** and eyeball the result for overflow

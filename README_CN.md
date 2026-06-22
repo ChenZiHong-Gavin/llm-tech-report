@@ -397,7 +397,7 @@
 - 日期格式：`YYYY-MM`
 - 每个公司内按时间顺序排列
 
-> 🤖 **AI 辅助维护：** 本仓库附带 Skill 文件 `skills/llm-tech-report-maintenance/SKILL.md`，加载到你的 AI 助手（Cursor、Copilot、CoPaw 等）即可获得引导式更新。
+> 🤖 **AI 辅助维护：** 本仓库为各 AI 助手附带了原生指令文件——Claude Code Skills（`.claude/skills/`）、Cursor Rules（`.cursor/rules/`）、Codex（`AGENTS.md`）——助手会自动遵循表格规范与约束。详见 [CONTRIBUTING.md](CONTRIBUTING.md#using-with-ai-assistants)。
 
 ---
 

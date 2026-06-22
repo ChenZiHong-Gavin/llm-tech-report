@@ -1,11 +1,16 @@
-# Skill: Logo Generation (Timeline)
+---
+name: logo-generation
+description: Generate the timeline logo (logo.png) for the llm-tech-report repository. Use when the user wants to create, regenerate, or update the repo's logo, add a new model or company to the timeline graphic, or adjust its layout/colors. Stacks all model names along a time axis above and below it and auto-avoids text overlap.
+---
+
+# Logo Generation (Timeline)
 
 为 `llm-tech-report` 仓库生成时间轴 logo。所有模型名按发布时间堆叠在横轴上下，自动避免文字重叠。
 
 ## 文件结构
 
 ```
-skills/logo-generation/
+.claude/skills/logo-generation/
 ├── SKILL.md                  # 本文件
 └── scripts/
     ├── generate.py           # 入口：配置 + 调用
@@ -24,8 +29,8 @@ pip install matplotlib numpy
 ## 使用
 
 ```bash
-cd D:\Project\info\llm-tech-report
-python skills/logo-generation/scripts/generate.py
+# 在仓库根目录下运行
+python .claude/skills/logo-generation/scripts/generate.py
 ```
 
 输出 `logo.png`（约 400KB，20x8 英寸，300 DPI）。

@@ -48,13 +48,16 @@ If the company doesn't exist yet:
 
 ## Using with AI Assistants
 
-This repo includes a **skill file** for AI coding assistants (Cursor, Copilot, CoPaw, etc.):
+This repo ships native instruction files so your assistant is guided automatically:
 
-```
-.cursor/skills/llm-tech-report-maintenance/SKILL.md
-```
+| Assistant | Files | How it loads |
+|-----------|-------|--------------|
+| **Claude Code** | `.claude/skills/llm-tech-report-maintenance/`, `.claude/skills/logo-generation/` | Auto-discovered skills |
+| **Cursor** | `.cursor/rules/llm-tech-report-maintenance.mdc`, `.cursor/rules/logo-generation.mdc` | Auto-attached rules (maintenance attaches when editing the README; logo applies on request) |
+| **Codex** | `AGENTS.md` (repo root) | Auto-loaded at session start |
+| **Other tools** | Any of the above | Load the relevant file as context manually |
 
-Load it as context when asking your AI to update this repo. It contains:
+They all encode the same guidance:
 - Exact table schema and field definitions
 - Step-by-step procedures for all operations
 - Commit message conventions

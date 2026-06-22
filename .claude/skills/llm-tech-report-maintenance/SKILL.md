@@ -1,6 +1,11 @@
-# Skill: LLM Tech Report Maintenance
+---
+name: llm-tech-report-maintenance
+description: Add, update, validate, or fix entries in the llm-tech-report repository's README.md (and README_CN.md). Use when the user wants to add a new model report or company section, fix a broken report link, batch-update multiple reports, or verify the data follows the repo's table schema and contribution rules. Works with links only — never downloads or reads PDF content.
+---
 
-> **For AI coding assistants (Cursor, Copilot, CoPaw, etc.).**
+# LLM Tech Report Maintenance
+
+> **For AI coding assistants (Claude Code, Cursor, Copilot, etc.).**
 > Load this file as context when you need to add, update, or validate entries in this repo.
 
 ---
@@ -12,7 +17,7 @@ llm-tech-report/
 ├── README.md            ← The only data file. All reports live here.
 ├── CONTRIBUTING.md      ← Human-readable contribution guide
 ├── LICENSE
-└── .cursor/skills/…     ← This skill file
+└── .claude/skills/…     ← Skill files (this one + logo-generation)
 ```
 
 **Core rule: links only, never download PDFs, never read PDF content.**

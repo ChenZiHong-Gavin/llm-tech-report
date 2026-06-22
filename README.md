@@ -424,7 +424,7 @@ Contributions welcome! To add a new report:
 - Date format: `YYYY-MM`
 - Sort entries chronologically within each company section
 
-> 🤖 **AI-assisted maintenance:** This repo ships with a skill file at `skills/llm-tech-report-maintenance/SKILL.md` — load it into your AI assistant (Cursor, Copilot, CoPaw, etc.) for guided updates.
+> 🤖 **AI-assisted maintenance:** This repo ships native instruction files for AI assistants — Claude Code skills (`.claude/skills/`), Cursor rules (`.cursor/rules/`), and Codex (`AGENTS.md`) — so your assistant follows the schema and guardrails automatically. See [CONTRIBUTING.md](CONTRIBUTING.md#using-with-ai-assistants).
 
 ---
 
