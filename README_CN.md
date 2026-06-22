@@ -67,10 +67,10 @@
 | 2023-03 | GPT-4 | Technical Report | [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) |
 | 2023-09 | GPT-4V | System Card | [GPT-4V(ision) System Card](https://cdn.openai.com/papers/GPTV_System_Card.pdf) |
 | 2024-05 | GPT-4o | System Card | [GPT-4o System Card](https://cdn.openai.com/gpt-4o-system-card.pdf) |
-| 2024-07 | GPT-4o mini | System Card | [GPT-4o mini System Card](https://cdn.openai.com/gpt-4o-mini-system-card.pdf) |
-| 2024-09 | o1 | System Card | [OpenAI o1 System Card](https://cdn.openai.com/o1-system-card-20240912.pdf) |
+| 2024-07 | GPT-4o mini | System Card | [GPT-4o mini System Card](https://cdn.openai.com/gpt-4o-system-card.pdf) |
+| 2024-09 | o1 | System Card | [OpenAI o1 System Card](https://cdn.openai.com/o1-system-card.pdf) |
 | 2024-12 | o1 (full) | System Card | [o1 and o1 pro System Card](https://cdn.openai.com/o1-system-card-20241205.pdf) |
-| 2025-01 | o3-mini | System Card | [o3-mini System Card](https://cdn.openai.com/pdf/o3-mini-system-card.pdf) |
+| 2025-01 | o3-mini | System Card | [o3-mini System Card](https://cdn.openai.com/o3-mini-system-card-feb10.pdf) |
 | 2025-04 | o3 / o4-mini | System Card | [o3 and o4-mini System Card](https://cdn.openai.com/pdf/2221c875-02dc-4789-800b-e7758f3722c1/o3-and-o4-mini-system-card.pdf) |
 | 2025-08 | GPT-5 | System Card | [GPT-5 System Card](https://cdn.openai.com/pdf/8124a3ce-ab78-4f06-96eb-49ea29ffb52f/gpt5-system-card-aug7.pdf) |
 | 2025-08 | GPT-oss-120B/20B | Model Card | [GPT-oss Model Card](https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf) |
@@ -123,7 +123,7 @@
 | 2024-04 | Llama 3.1 | Paper | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) |
 | 2024-07 | Llama 3 | Paper | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) |
 | 2025-04 | Llama 4 Scout / Maverick | Blog | [Llama 4: Open, Multimodal Intelligence](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) |
-| 2025-06 | Llama 4 Behemoth | Blog | [Llama 4 Behemoth](https://ai.meta.com/blog/llama-4-behemoth/) |
+| 2025-06 | Llama 4 Behemoth | Blog | [Llama 4 Behemoth](https://ai.meta.com/blog/llama-4-multimodal-intelligence/) |
 
 ## DeepSeek（深度求索）
 
@@ -343,7 +343,7 @@
 |:-----|:------|:-----|:-----|
 | 2024-03 | Yi | Paper | [Yi: Open Foundation Models by 01.AI](https://arxiv.org/abs/2403.04652) |
 | 2024-05 | Yi-1.5 | Blog | [Yi-1.5: Updated, Stronger](https://01-ai.github.io/blog.html?post=en/2024-05-11-Yi-1.5.md) |
-| 2024-09 | Yi-Coder | Blog | [Yi-Coder: A Small but Mighty LLM for Code](https://01-ai.github.io/blog.html?post=en/2024-09-05-A-Small-but-Mighty-LLM-for-Code.md) |
+| 2024-09 | Yi-Coder | Blog | [Yi-Coder: A Small but Mighty LLM for Code](https://huggingface.co/blog/lorinma/yi-coder) |
 | 2025-02 | Yi-Lightning | Paper | [Yi-Lightning Technical Report](https://arxiv.org/abs/2412.01253) |
 
 ## Meituan（美团）
